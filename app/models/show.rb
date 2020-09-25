@@ -16,7 +16,7 @@ class Show < ActiveRecord::Base
   end 
   
   def self.ratings_sum
-     <Show name> .sum (:<column_name>)
+     <Show rating>.sum (:<column_name>)
   end 
   
   def self.popular_shows
